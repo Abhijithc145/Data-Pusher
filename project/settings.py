@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "Account",
     "Destination",
 
+
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Data_Pusher',  
+        'NAME': 'data_pusher',  
         'USER': 'postgres',  
         'PASSWORD': 'abhijith@123',  
         'HOST': '127.0.0.1',  

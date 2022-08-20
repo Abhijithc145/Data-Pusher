@@ -3,9 +3,10 @@ from .models import *
 
 
 
-class AccountSerializer(serializers.ModelSerializer):
+class DestinationSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Account
+        model =Dstinations
+
         fields = "__all__"
 
     
