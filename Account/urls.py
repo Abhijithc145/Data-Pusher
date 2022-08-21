@@ -7,4 +7,5 @@ urlpatterns = [
     
     path('create',Account_create.as_view(),name='create'),
     path('create/<int:pk>',Account_creates.as_view(),name='create'),
+    # path('Account',Account_create.as_view(),name='create'),
 ]

@@ -6,9 +6,7 @@ from Account.models import *
 Methods=(
     ('GET', 'GET'),
     ('PUT', 'PUT'),
-    ('POST', 'POST'),
-    ('PATCH', 'PATCH'),
-    ('DELETE', 'DELETE')
+    ('POST', 'POST')
 
 )
 
